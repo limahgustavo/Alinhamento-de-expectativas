@@ -34,7 +34,9 @@ img{
     height: 100%;
 }
 div{
-    box-shadow: 0 0 1rem  rgb(63, 59, 36);
+
   
 }
-.container { text-align:left; }
+col{
+   text-color: rgb(237, 120, 57);
+}
