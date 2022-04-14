@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+body{
+    font-family: arial;
+}
+
+ul{
+    list-style: none;
+    
+}
+
+img{
+    width: 250px;
+}
+
+#container-b
+{
+    background-color: blue;
+    
+    width: 900px;
+    height: 100%;
+}
+
+#container-a {
+    
+    background-color: red;
+    
+    width: 350px;
+    height: 100%;
+}
+div{
+    box-shadow: 0 0 1rem  rgb(63, 59, 36);
+  
+}
+.container { text-align:left; }
