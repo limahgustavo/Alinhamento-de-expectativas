@@ -93,6 +93,18 @@ body {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
+.third {
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+.third:hover {
+  box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+}
+
+
 </style>
 
 </head>
@@ -110,7 +122,7 @@ body {
       <img src="C:\Users\gusta\OneDrive\Documentos\test\Alinhamento-de-expectativas\imag\001.jpg">
       </div>
   
-    <div class="row" style="margin-left: 300px;">
+    <div class="row" style="margin-left: 270px;">
       <div class="header" style="background: #fdf1eb; text-align: left;">
         <a class="logo" style="text-emphasis-color: rgba(35, 34, 34, 0.959); font-size: 13px; text-align: left;">Anais do Simpósio Latino Americano de Ciências de Alimentos</a>
         <div class="header-right">
@@ -130,7 +142,7 @@ body {
           color: #ED7839;"
           >Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</h2>
           <div>
-            <iframe width="800" height="500px"
+            <iframe width="740" height="500px"
 src="https://www.youtube.com/embed/I5Rl73wFmWs">
 </iframe>
           </div>
@@ -154,22 +166,22 @@ src="https://www.youtube.com/embed/I5Rl73wFmWs">
         </div>
       </div>
       <div class="rightcolumn">
+        
         <div class="card" style="border:1px solid #ffccff; border-radius: 1%;" > 
-          <div style="border:1px solid #ffccff;">dddd</div>
+          <div style="border:1px solid #ffccff; margin: 0px 0px 0px 0px;">dddd
+            
+          </div>
           <h2>About Me</h2>
           <div class="fakeimg">Image</div>
           <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+
+
+
         </div>
-        <div class="card">
-          <h3>Popular Post</h3>
-          <div class="fakeimg"><p>Image</p></div>
-          <div class="fakeimg"><p>Image</p></div>
-          <div class="fakeimg"><p>Image</p></div>
-        </div>
-        <div class="card">
-          <h3>Follow Me</h3>
-          <p>Some text..</p>
-        </div>
+        
+        
+
+
       </div>
     </div>
 
@@ -177,21 +189,31 @@ src="https://www.youtube.com/embed/I5Rl73wFmWs">
  
 
 <div class="footer">
-  <h2>Footer</h2>
-  <h1>The textarea element</h1>
+  
 
 <form action="/action_page.php">
-<label for="w3review">Review of W3Schools:</label>
+<label for="w3review">Comentarios:</label><br>
 <textarea id="w3review" name="w3review" rows="4" cols="50">
   At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
   </textarea>
   <br><br>
-  <input type="submit" value="Submit">
+  <button class="btn third">Button 3</button>
 </form>
 
-<p>Click the "Submit" button and the form-data will be sent to a page on the 
-server called "action_page.php".</p>
+
 </div>
+
+<div class="footer">
+  <h2>Footer</h2>
+  <h1>The textarea element</h1>
+  
+  <p>Click the "Submit" button and the form-data will be sent to a page on the 
+    server called "action_page.php".</p>
+
+    <button class="btn third">Button 3</button>
+
+</div>
+
 
 </body>
 </html>
