@@ -1,60 +1,199 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
-    <title>Document</title>
-    <link rel="stylesheet" href="001.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-</head>
-<body>
-   
+<style>
 
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <!-- menu -->
-  <ul class="nav flex-column">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="#">Active</a>
-    </li>
-    <li class="nav-item">
-         <a class="nav-link" href="#">Apresentação</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link" href="#">Comitês</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled">Autores</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled">Eixos temáticos</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled">Trabalhos</a>
-    </li>
-    <li class="nav-item">
-        <a class="nav-link disabled">Contato</a>
-    </li>
-  </ul>
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  font-family: Arial;
+  background-color: white;
+}
+
+
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #ffffff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #ffffff;
+  padding-left: 20px;
+}
+
+
+.fakeimg {
+  width: 100%;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: rgb(255, 255, 255);
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+  <div style="display: flex;">
+     <div style="background-color: rgb(255, 255, 255);
+        top: 0;
+        bottom:0;
+        width: 270px;
+        position:fixed;
+        overflow-x: auto;
+        box-shadow: rgba(0, 1, 0,7) 0px 0px 4px;">   
+      <img src="C:\Users\gusta\OneDrive\Documentos\test\Alinhamento-de-expectativas\imag\001.jpg">
       </div>
-      <div class="col">
-        Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP
+  
+    <div class="row" style="margin-left: 300px;">
+      <div class="header" style="background: #fdf1eb; text-align: left;">
+        <a class="logo" style="text-emphasis-color: rgba(35, 34, 34, 0.959); font-size: 13px; text-align: left;">Anais do Simpósio Latino Americano de Ciências de Alimentos</a>
+        <div class="header-right">
+          <a style="text-align: left; font-size: 18px;">Anais do 13º Simpósio Latino Americano de Ciência de Alimentos</a><br>
+          <a style="text-align: left; font-size: 13px; text-emphasis-color: rgba(35, 34, 34, 0.959);">ISSN: 2447-2840</a>
+          <a style="">Login</a>
+         
+        </div>
+      </div>
+    
+      <div class="leftcolumn">
+        <div class="card" style="box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; border-radius: 1%;">
+          <h2 style="font-size: 20px;
+          font-weight: 800;
+          letter-spacing: 1.6px;
+          line-height: 1.2em;
+          color: #ED7839;"
+          >Análise sensorial de preparações funcionais desenvolvidas para escolares entre 09 e 15 anos, do município de Campinas/SP</h2>
+          <div>
+            <iframe width="800" height="500px"
+src="https://www.youtube.com/embed/I5Rl73wFmWs">
+</iframe>
+          </div>
+          </div>
+        <div class="card">
+          <h2>RESUMO</h2>
+          <label for="story"></label><br>
+          <textarea name="textarea"
+          rows="20" cols="50"
+          placeholder="Comment text.">O que é Lorem Ipsum?
+          Lorem Ipsum é simplesmente texto fictício da indústria de impressão e digitação. Lorem Ipsum tem sido o texto falso padrão da indústria desde 1500, quando uma impressora desconhecida pegou uma galera do tipo e a embaralhou para fazer um livro de espécimes. Sobreviveu não só a cinco séculos, mas também o salto para a digitação eletrônica, permanecendo essencialmente inalterado. Foi popularizado na década de 1960 com o lançamento de folhas do Letraset contendo passagens de Lorem Ipsum, e mais recentemente com softwares de publicação de desktop como Aldus PageMaker, incluindo versões de Lorem Ipsum.
+          
+          Por que usamos?
+          É um fato há muito estabelecido que um leitor se distrairá com o conteúdo legível de uma página ao olhar para seu layout. O ponto de usar Lorem Ipsum é que ele tem uma distribuição mais ou menos normal de letras, em vez de usar 'Conteúdo aqui, conteúdo aqui', fazendo parecer inglês legível. Muitos pacotes de publicação de desktop e editores de páginas da Web agora usam Lorem Ipsum como seu texto padrão do modelo, e uma busca por 'lorem ipsum' descobrirá muitos sites ainda em sua infância. Várias versões evoluíram ao longo dos anos, às vezes por acidente, às vezes de propósito (humor injetado e similares).
+          
+          
+          De onde vem isso?
+          Ao contrário da crença popular, Lorem Ipsum não é simplesmente texto aleatório. Tem raízes em uma peça da literatura latina clássica a partir de 45 a.C., tornando-a com mais de 2000 anos. Richard McClintock, professor de latim no Hampden-Sydney College, na Virgínia, pesquisou uma das palavras latinas mais obscuras, consectetur, a partir de uma passagem de Lorem Ipsum, e passando pelas citações da palavra na literatura clássica, descobriu a fonte indutível. Lorem Ipsum vem das seções 1.10.32 e 1.10.33 de "de Finibus Bonorum et Malorum" (Os Extremos do Bem e do Mal) de Cícero, escritas em 45 a.C. Este livro é um tratado sobre a teoria da ética, muito popular durante o Renascimento. A primeira linha de Lorem Ipsum, "Lorem ipsum dolor sit amet..", vem de uma linha na seção 1.10.32.</textarea>
+
+         
+        </div>
+      </div>
+      <div class="rightcolumn">
+        <div class="card" style="border:1px solid #ffccff; border-radius: 1%;" > 
+          <div style="border:1px solid #ffccff;">dddd</div>
+          <h2>About Me</h2>
+          <div class="fakeimg">Image</div>
+          <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        </div>
+        <div class="card">
+          <h3>Popular Post</h3>
+          <div class="fakeimg"><p>Image</p></div>
+          <div class="fakeimg"><p>Image</p></div>
+          <div class="fakeimg"><p>Image</p></div>
+        </div>
+        <div class="card">
+          <h3>Follow Me</h3>
+          <p>Some text..</p>
+        </div>
       </div>
     </div>
+
   </div>
-  
-  
+ 
 
+<div class="footer">
+  <h2>Footer</h2>
+  <h1>The textarea element</h1>
 
+<form action="/action_page.php">
+<label for="w3review">Review of W3Schools:</label>
+<textarea id="w3review" name="w3review" rows="4" cols="50">
+  At w3schools.com you will learn how to make a website. They offer free tutorials in all web development technologies.
+  </textarea>
+  <br><br>
+  <input type="submit" value="Submit">
+</form>
 
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script> 
-   
-</script>
+<p>Click the "Submit" button and the form-data will be sent to a page on the 
+server called "action_page.php".</p>
+</div>
 
 </body>
-
 </html>
+
+

@@ -1,42 +1,12 @@
-*{
-    padding: 0px;
-    margin: 0px;
-}
-
-
-
-body{
-    font-family: arial;
-}
-
-ul{
-    list-style: none;
-    
-}
-
-img{
-    width: 250px;
-}
-
-#container-b
-{
+body {
     background-color: blue;
-    
-    width: 900px;
+    display: flex;
     height: 100%;
-}
-
-#container-a {
-    
-    background-color: red;
-    
-    width: 350px;
-    height: 100%;
-}
-div{
-
-  
-}
-col{
-   text-color: rgb(237, 120, 57);
+  }
+  .fakeimg {   
+    border: solid 5px #f0f;
+    width: 50%;
+    height: 50%;
+    padding-bottom:30%;
+    margin: 0 auto;
 }
