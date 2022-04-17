@@ -1,6 +1,14 @@
+*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+}
+ol,ul,li{
+  list-style: none;
+  list-style-type: none;
+}
 body {
     background-color: blue;
-    display: flex;
     height: 100%;
   }
   .fakeimg {   
