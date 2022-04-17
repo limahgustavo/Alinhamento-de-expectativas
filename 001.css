@@ -227,9 +227,11 @@ body {
   overflow-y: scroll;
   width: 260px;
   height: 260px;
+  color: darkgray;
 }
 .autores {
   margin-top: 10px;
+  color: darkgray;
 }
 #numerozinho {
   display: flex;
