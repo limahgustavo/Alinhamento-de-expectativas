@@ -1,4 +1,5 @@
 * {
+  font-family: 'Quicksand', sans-serif;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -126,7 +127,6 @@ body {
   bottom: 0;
   width: 250px;
   position: fixed;
-  overflow-x: auto;
   box-shadow: rgba(0, 1, 0, 7) 0px 0px 4px
 }
 
@@ -255,4 +255,35 @@ body {
 }
 .botao{
   padding-top: 50px;
+}
+.resumo{
+  padding: 10px;
+  border: 1px solid rgb(231, 231, 231);
+  border-radius: 3px;
+}
+
+.conteudo-02{
+  margin-top: 20px;
+  background-color: #FDF1EB;
+  border-radius: 3px;
+  border: 1px solid rgb(231, 231, 231);
+  padding: 10px;
+}
+#mais{
+  display: none;
+}
+#btn-02{
+  border-color: #3498db;
+  color: #fff;
+  box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+  -webkit-transition: all 150ms ease-in-out;
+  transition: all 150ms ease-in-out;
+}
+
+.fora{
+  margin-left: 20px;
+}
+.series-itens:hover {
+  transform: scale(1); 
+  box-shadow: 0 5px 15px rgba(85, 79, 79, 0.6);
 }
